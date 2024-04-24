@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596687975293",
+    "project_id": "entrega1-app-moviles",
+    "storage_bucket": "entrega1-app-moviles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596687975293:android:0fb19b66f204f499849214",
+        "android_client_info": {
+          "package_name": "com.example.entrega_1_apps_moviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbdnJ-J1nQbfMuvNlBeL2gy-3NC3ovOxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
