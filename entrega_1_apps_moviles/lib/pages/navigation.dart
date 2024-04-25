@@ -23,6 +23,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: const Color.fromARGB(255, 39, 39, 39),
         actions:<Widget>[
         IconButton(

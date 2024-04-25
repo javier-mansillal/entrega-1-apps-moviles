@@ -10,6 +10,6 @@ void main() async {
   ); // Firebase
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: BottomNavBar(),
+    home: Login(),
   ));
 }

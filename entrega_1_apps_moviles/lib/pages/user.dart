@@ -20,10 +20,17 @@ class User extends StatelessWidget {
                 fit: BoxFit.cover,
                 ),
               ),
-              Column(
+              const Column(
                 children: [
-                const Text("John Wick", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5))
-
+                SizedBox(height:20.0),
+                Text("Ciudad", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
+                Text("Nueva York", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
+                SizedBox(height:20.0),
+                Text("Edad", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
+                Text("50", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
+                SizedBox(height:20.0),
+                Text("Asesinatos", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
+                Text("5599", style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold, letterSpacing: 1.5)),
                 ]
               )
         ]
