@@ -41,6 +41,8 @@ class _BottomNavBarState extends State<BottomNavBar> {
         type:BottomNavigationBarType.fixed,
         unselectedLabelStyle: const TextStyle(color: Colors.white),
         unselectedItemColor: Colors.white,
+        selectedLabelStyle: const TextStyle(color: Colors.cyan),
+        selectedItemColor: Colors.cyan,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.feed),
           label: "Contratos",
