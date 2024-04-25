@@ -2,7 +2,6 @@
 
 import 'package:entrega_1_apps_moviles/pages/navigation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
